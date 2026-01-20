@@ -3,18 +3,18 @@ import { UploadIcon, VideoIcon, ZapIcon } from 'lucide-react';
 export const featuresData = [
     {
         icon: <UploadIcon className="w-6 h-6" />,
-        title: 'Discovery & Planning',
-        desc: 'We understand your goals, audience and challenges to craft a clear, actionable strategy.'
+        title: 'Smart Upload',
+        desc: 'Easily upload your product images and let our AI generate captivating marketing content in seconds.'
     },
     {
         icon: <ZapIcon className="w-6 h-6" />,
-        title: 'Design & Development',
-        desc: 'High-quality design and scalable development focused on performance and usability.'
+        title: 'AI-Powered Creation',
+        desc: 'Our AI instantly transforms your product images into engaging marketing content, saving you time and effort.'
     },
     {
         icon: <VideoIcon className="w-6 h-6" />,
-        title: 'Launch & Growth',
-        desc: 'We launch, optimize and continuously improve to drive measurable business growth.'
+        title: 'Ready-to-Use Videos',
+        desc: 'Receive high-quality marketing videos optimized for social media and advertising platforms, ready to boost your campaigns.'
     }
 ];
 
@@ -22,43 +22,43 @@ export const plansData = [
     {
         id: 'starter',
         name: 'Starter',
-        price: '$499',
-        desc: 'Best for early-stage startups.',
-        credits: 'One-time',
+        price: 'Free',
+        desc: 'Try out our services with this basic plan',
+        credits: 25,
         features: [
-            'Project discovery & planning',
-            'UI/UX design',
-            'Basic website development',
-            '1 revision round',
-            'Email support'
+            '25',
+            'Standard quality videos',
+            'No watermarks',
+            'Basic support',
+            'Access to community forum'
         ]
     },
     {
         id: 'pro',
-        name: 'Growth',
-        price: '$1,499',
-        desc: 'Growing teams and businesses.',
-        credits: 'Monthly',
+        name: 'pro',
+        price: '₹499',
+        desc: 'Creator plan for individuals and small teams.',
+        credits: 100,
         features: [
-            'Everything in Starter',
-            'Advanced UI/UX design',
-            'Custom development',
-            'Performance optimization',
+            '100',
+            'High quality videos',
+            'No watermarks',
+            'Video generation priority',
             'Priority support'
         ],
         popular: true
     },
     {
         id: 'ultra',
-        name: 'Scale',
-        price: '$3,999',
-        desc: 'For brands ready to scale fast.',
-        credits: 'Custom',
+        name: 'Ultra',
+        price: '₹1499',
+        desc: 'Agency plan for businesses and large teams.',
+        credits: 350,
         features: [
-            'Everything in Growth',
-            'Dedicated project manager',
-            'Ongoing optimization',
-            'Marketing & growth support',
+            '350',
+            'Premium quality videos',
+            'No watermarks',
+            'Highest generation priority',
             'Chat + Email support'
         ]
     }
@@ -66,20 +66,24 @@ export const plansData = [
 
 export const faqData = [
     {
-        question: 'What services does your agency provide?',
-        answer: 'We offer end-to-end digital services including brand strategy, UI/UX design, web and app development and growth-focused marketing solutions.'
+        question: 'How does your AI video generation work?',
+        answer: 'Our AI analyzes your product images and uses advanced algorithms to create engaging marketing videos tailored to your brand and audience.'
     },
     {
-        question: 'Do you work with startups or only large companies?',
-        answer: 'We work with startups, growing businesses and established brands. Our process is flexible and tailored to match your goals and scale.'
+        question: 'What types of videos can I create?',
+        answer: 'You can create a variety of marketing videos, including promotional clips, social media ads, and product showcases, all optimized for different platforms.'
     },
     {
-        question: 'How long does a typical project take?',
-        answer: 'Project timelines vary by scope, but most projects take between 2–6 weeks. We provide a clear timeline after the discovery phase.'
+        question: 'What file formats do you support for uploads?',
+        answer: 'We support common image formats such as JPEG, PNG, and BMP for uploads.'
     },
     {
-        question: 'Do you offer ongoing support after launch?',
-        answer: 'Yes. We offer maintenance, optimization and growth support packages to ensure your product continues to perform and evolve.'
+        question: 'Do i own the rights to the videos created?',
+        answer: 'Yes, you retain full ownership and rights to all videos created using our platform.'
+    },
+    {
+        question: 'can I upgrade or downgrade my subscription plan?',
+        answer: 'Yes, you can easily upgrade or downgrade your subscription plan at any time through your account settings.'
     }
 ];
 

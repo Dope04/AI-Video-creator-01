@@ -13,7 +13,7 @@ export default function Faq() {
                 <Title
                     title="FAQ"
                     heading="Frequently asked questions"
-                    description="Everything you need to know about working with our agency. If you have more questions, feel free to reach out."
+                    description="Everything you need to know about using our AI video generation platform."
                 />
 
                 <div className="space-y-3">
