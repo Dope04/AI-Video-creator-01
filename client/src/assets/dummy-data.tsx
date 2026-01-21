@@ -89,12 +89,12 @@ export const faqData = [
 
 export const footerLinks = [
     {
-        title: "Company",
+        title: "Quick Links",
         links: [
             { name: "Home", url: "#" },
-            { name: "Services", url: "#" },
-            { name: "Work", url: "#" },
-            { name: "Contact", url: "#" }
+            { name: "Features", url: "#" },
+            { name: "Pricing", url: "#" },
+            { name: "FAQ", url: "#" }
         ]
     },
     {
@@ -107,9 +107,9 @@ export const footerLinks = [
     {
         title: "Connect",
         links: [
-            { name: "Twitter", url: "#" },
-            { name: "LinkedIn", url: "#" },
-            { name: "GitHub", url: "#" }
+            { name: "Instagram", url: "https://www.instagram.com/tech_soumyadeep/" },
+            { name: "LinkedIn", url: "https://www.linkedin.com/in/soumyadeep-mondal-a47b50293" },
+            { name: "GitHub", url: "https://github.com/Dope04" }
         ]
     }
 ];

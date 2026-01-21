@@ -16,7 +16,7 @@ export default function Footer() {
                     <div>
                         <img src={assets.logo}alt="logo" className="h-8" />
                         <p className="max-w-[410px] mt-6 text-sm leading-relaxed">
-                            We are a digital agency focused on strategy, design and development—helping brands build meaningful digital experiences and grow sustainably.
+                            Create viral social media posts, ads, and content with UGC AI and grow your business like never before.
                         </p>
                     </div>
 
@@ -33,6 +33,8 @@ export default function Footer() {
                                                 <a
                                                     href={link.url}
                                                     className="hover:text-white transition"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
                                                 >
                                                     {link.name}
                                                 </a>
@@ -47,8 +49,8 @@ export default function Footer() {
 
                 <p className="py-4 text-center text-sm text-gray-400">
                     © {new Date().getFullYear()} {' '}
-                    <a href="https://prebuiltui.com/tailwind-templates?ref=pixel-forge">
-                        PrebuiltUI
+                    <a href="https://soumya-wizard.onrender.com/" target="_blank" rel="noopener noreferrer">
+                        Soumyadeep
                     </a>
                     . All rights reserved.
                 </p>
