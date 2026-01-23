@@ -125,7 +125,7 @@ This project is open source and available under the MIT License.
 ## Support
 
 For support and inquiries:
-- 📧 Email: soumya@example.com
+- 📧 Email: mondalsoumyadeep4@gmail.com
 - 🔗 LinkedIn: [Soumyadeep Mondal](https://www.linkedin.com/in/soumyadeep-mondal-a47b50293)
 - 🐙 GitHub: [@Dope04](https://github.com/Dope04)
 - 📱 Instagram: [@tech_soumyadeep](https://www.instagram.com/tech_soumyadeep/)
