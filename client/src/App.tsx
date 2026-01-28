@@ -6,7 +6,7 @@ import LenisScroll from './components/lenis';
 import { Route, Routes } from 'react-router-dom';
 import Generator from './pages/Generator';
 import Result from './pages/Result';
-import Mygeneration from './pages/Mygeneration';
+import Mygeneration from './pages/MyGeneration';
 import Community from './pages/Community';
 import Plans from './pages/Plans';
 import Loading from './pages/Loading';

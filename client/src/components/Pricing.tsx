@@ -14,7 +14,7 @@ export default function Pricing() {
                 <Title
                     title="Pricing"
                     heading="Subscriptions"
-                    description="Choose a plan that fits your business needs and scale with ease."
+                    description="Choose a plan that fits your business needs and scale with ease ."
                 />
 
                 <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
