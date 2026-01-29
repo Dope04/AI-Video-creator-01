@@ -30,110 +30,91 @@ Create stunning AI-powered marketing videos from product images in seconds! Tran
 ## Tech Stack
 
 - **Frontend Framework**: React 19.2
-- **Language**: TypeScript 5.9
-- **Build Tool**: Vite 7.2
-- **Styling**: Tailwind CSS 4.1
-- **Animations**: Framer Motion 12.23
-- **Icons**: Lucide React
-- **Routing**: React Router DOM 7.12
-- **Smooth Scrolling**: Lenis
+# AI Video Creator
+
+Create AI-powered marketing videos from product images and prompts. This repository contains the frontend client built with React, TypeScript, and Vite.
+
+![React](https://img.shields.io/badge/React-19.2.0-61DAFB?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript)
+![Vite](https://img.shields.io/badge/Vite-7.2-646CFF?logo=vite)
+
+## Overview
+
+- Upload product images or provide prompts to generate short marketing videos optimized for social platforms.
+- Includes UI components for upload, generation flow, plans, and result viewing.
+
+## Features
+
+- Prompt-driven video generation UI
+- File upload zone with previews
+- Generation history (My Generations)
+- Pricing/Plans page (Starter / Pro / Ultra)
+- Responsive layout and animations
+
+## Tech Stack
+
+- React + TypeScript
+- Vite (dev server / build)
+- Tailwind CSS (styling)
+- Framer Motion (animations)
+- React Router (routing)
 
 ## Getting Started
 
-### Prerequisites
+1. Open a terminal and navigate to the client folder:
 
-- Node.js (v16 or higher)
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
 ```bash
-git clone https://github.com/Dope04/AI-Video-creator-01.git
-cd AI-Video-creator-01/client
+cd client
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
-3. Start the development server:
+3. Start the dev server:
+
 ```bash
 npm run dev
 ```
 
-The application will be available at `http://localhost:5173`
+4. Open the URL printed by Vite (usually `http://localhost:5173`).
 
-## Project Structure
+Notes:
+- If you have a separate backend, run it alongside the client and set API URLs in an `.env` file.
 
-```
-src/
-├── assets/
-│   ├── assets.tsx          # Image and asset imports
-│   ├── dummy-data.tsx      # Mock data for features, plans, FAQs
-│   └── schema.prisma       # Database schema
-├── components/
-│   ├── Navbar.tsx          # Navigation bar
-│   ├── Hero.tsx            # Hero section
-│   ├── Features.tsx        # Features showcase
-│   ├── Pricing.tsx         # Pricing plans
-│   ├── Faq.tsx             # FAQ section
-│   ├── Footer.tsx          # Footer with social links
-│   ├── Buttons.tsx         # Reusable button components
-│   ├── Title.tsx           # Section titles
-│   └── ...                 # Other components
-├── pages/
-│   └── Home.tsx            # Home page
-├── App.tsx                 # Main app component
-├── main.tsx                # App entry point
-└── index.css               # Global styles
-```
+## Project Structure (client/src)
 
-## Available Scripts
+- `assets/` — image imports, dummy data, and `schema.prisma` (if used).
+- `components/` — reusable UI pieces: `Navbar`, `Hero`, `UploadZone`, `Buttons`, `Footer`, etc.
+- `pages/` — top-level pages: `Home`, `Generator`, `MyGeneration`, `Result`, `Plans`, `Community`.
+- `types/` — shared TypeScript types.
 
-### Development
-```bash
-npm run dev        # Start Vite dev server with HMR
-```
+## Scripts (client)
 
-### Production
-```bash
-npm run build      # Build for production with TypeScript type-checking
-npm run preview    # Preview production build locally
-```
+- `npm run dev` — start Vite dev server
+- `npm run build` — build production bundle
+- `npm run preview` — preview production build locally
+- `npm run lint` — run ESLint
 
-### Linting
-```bash
-npm run lint       # Run ESLint to check code quality
-```
+Check `client/package.json` for exact script names and versions.
 
 ## Contributing
 
-Contributions are welcome! To contribute:
+Contributions are welcome. Suggested workflow:
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+1. Fork the repo and create a feature branch
+2. Implement changes and add tests where appropriate
+3. Open a pull request with a clear description
 
 ## License
 
-This project is open source and available under the MIT License.
+This project can be licensed under MIT or another license you choose. Add a `LICENSE` file to apply.
 
-## Support
+## Contact
 
-For support and inquiries:
-- 📧 Email: mondalsoumyadeep4@gmail.com
-- 🔗 LinkedIn: [Soumyadeep Mondal](https://www.linkedin.com/in/soumyadeep-mondal-a47b50293)
-- 🐙 GitHub: [@Dope04](https://github.com/Dope04)
-- 📱 Instagram: [@tech_soumyadeep](https://www.instagram.com/tech_soumyadeep/)
+- Email: mondalsoumyadeep4@gmail.com
+- GitHub: https://github.com/Dope04
+- LinkedIn: https://www.linkedin.com/in/soumyadeep-mondal-a47b50293
 
-## Author
-
-**Soumyadeep Mondal** - Full Stack Developer passionate about AI and modern web technologies.
-
----
-
-Made with ❤️ by [Soumyadeep Mondal](https://soumya-wizard.onrender.com/)
